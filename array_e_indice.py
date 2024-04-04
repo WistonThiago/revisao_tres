@@ -12,3 +12,21 @@ def tarefaDois():
     print("Último nome: ", nomesTwo[3])
 tarefaDois()
 
+def tarefaDois():
+    nomesThree = ["Emílio", "Jonas", "Patrícia", "Laís"]
+    print("Segundo nome: ", nomesThree[1])
+    print("Terceiro nome: ", nomesThree[2])
+tarefaDois()
+
+def tarefaTres():
+    alimentos = ["Macarrão", "Pepino", "Batata"]
+    alimentoUm = input("Digite o nome de um alimento: ")
+    alimentoDois = input("Digite o nome de mais um alimento: ")
+    alimentoTres = input("Digite o nome do último alimento: ")
+    alimentos[0] = alimentoUm
+    alimentos[1] = alimentoDois
+    alimentos[2] = alimentoTres
+    print("1 - ", alimentos[0])
+    print("2 - ", alimentos[1])
+    print("3 - ", alimentos[2])
+tarefaTres()
