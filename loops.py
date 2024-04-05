@@ -10,3 +10,12 @@ def contadorUser():
         print(counter)
         counter = counter + 1
 contadorUser()
+
+def somaUser():
+    value = int(input("Digite um número inteiro: "))
+    sum = 1
+    while (sum <= value):
+        operation = value + sum
+        print(f"{value} + {sum} = {operation}")
+        sum = sum + 1
+somaUser()
