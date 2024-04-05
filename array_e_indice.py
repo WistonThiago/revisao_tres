@@ -20,9 +20,9 @@ tarefaTres()
 
 def tarefaQuatro():
     alimentos = ["Macarrão", "Pepino", "Batata"]
-    alimentoUm = input("Digite o nome de um alimento: ")
-    alimentoDois = input("Digite o nome de mais um alimento: ")
-    alimentoTres = input("Digite o nome do último alimento: ")
+    alimentoUm = input("Escolha um alimento: ")
+    alimentoDois = input("Escolha outro alimento: ")
+    alimentoTres = input("Escolha o último alimento: ")
     alimentos[0] = alimentoUm
     alimentos[1] = alimentoDois
     alimentos[2] = alimentoTres
