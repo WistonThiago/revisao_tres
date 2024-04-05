@@ -1,7 +1,7 @@
-'''def contarAteVinte():
+def contarAteVinte():
     for i in range(21):
         print(i)
-contarAteVinte()'''
+contarAteVinte()
 
 def contadorUser():
     number = int(input("Digite um número inteiro: "))
@@ -19,3 +19,12 @@ def somaUser():
         print(f"{value} + {sum} = {operation}")
         sum = sum + 1
 somaUser()
+
+def tabuada():
+    valor = int(input("Digite um número inteiro: "))
+    times = 1
+    while (times <= 10):
+        operation = valor * times
+        print(f"{valor} x {times} = {operation}")
+        times = times + 1
+tabuada()
