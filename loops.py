@@ -28,3 +28,7 @@ def tabuada():
         print(f"{valor} x {times} = {operation}")
         times = times + 1
 tabuada()
+
+def callName():
+    print("Calling the name of function!")
+callName()
